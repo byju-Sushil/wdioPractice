@@ -154,11 +154,10 @@ describe('Complete practice',async()=>{
 
     })
 
-    xit('mouse hover',async()=>{
+    it('mouse hover',async()=>{
         await browser.url('https://rahulshettyacademy.com/AutomationPractice/')
         await browser.maximizeWindow()
-        await $("#mousehover").scrollIntoView
-        await browser.pause(2000)
+        await $("#mousehover").scrollIntoView(false)
 
         await $("#mousehover").moveTo()
         await browser.pause(2000)
