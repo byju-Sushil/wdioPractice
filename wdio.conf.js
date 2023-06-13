@@ -24,7 +24,6 @@ export const config = {
     //
     specs: [
         './test/specs/first.js'
-        // './test/specs/practice.js'
     ],
     // Patterns to exclude.
     exclude: [
